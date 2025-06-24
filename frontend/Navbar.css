@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-family: 'Lucida Handwriting', 'Brush Script MT', cursive;
+  font-size: 1.8rem;
+  color: #8b4513;
+  text-decoration: none;
+}
+
+.nav-links a, .nav-actions a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #583e2e;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover, .nav-actions a:hover {
+  color: #b5835a;
+}
